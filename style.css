@@ -1,0 +1,143 @@
+body{
+    background-color: hsl(30, 54%, 90%);
+    min-height: 1100px;
+    width: 1440px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+.recipe{
+    position: relative;
+    left: 50%;
+    width: fit-content;
+    background-color: white;
+    font-size: 8.5px;
+    padding: 20px;
+    font-family: Outfit;
+    border-radius: 10px;
+ 
+}
+.recipeImage{
+    height: 170px;
+    width: 370px;
+    border-radius: 10px;
+
+}
+.title{
+    font-family: young serif;
+    font-size: 22px;
+    font-weight: 400;
+    margin: 20px 0 0 0;
+    color: hsl(24, 5%, 18%);
+}
+.description{
+    font-weight: 500;
+    color: rgb(134, 134, 134);
+    padding: 0 0 10px 0;
+}
+h4{
+    font-size: 11px;
+    color: hsl(332, 45%, 41%);
+    padding: 14px 0 6px 0;
+}
+.preparation{
+    background-color: hsla(332, 51%, 32%, 0.034);
+    padding: 0 0 0 12px;
+    border-radius: 10px;
+   
+}
+.preparationTime{ 
+    position: relative;
+    bottom: 10px;
+    right: 25px;
+    gap: 8px;
+    display: grid;
+    color: hsl(30, 10%, 34%);
+    font-weight: 400;
+    text-indent: 8px;
+    padding-bottom:10px;
+}
+h3{
+    font-family: young serif ;
+    font-size: 15px;
+    font-weight:550;
+    color: hsl(14, 45%, 36%);
+}
+.ingredients{
+    position: relative;
+    bottom: 10px;
+    right: 25px;
+    gap: 8px;
+    display: grid;
+    color: hsl(30, 10%, 34%);
+    font-weight: 400;
+    text-indent: 8px;
+    padding-top: 7px;
+
+}
+.instructions{
+    position: relative;
+    bottom: 10px;
+    right: 25px;
+    gap: 8px;
+    display: grid;
+    color: hsl(30, 10%, 34%);
+    font-weight: 400;
+    text-indent: 8px;
+    padding-top: 7px;
+}
+.nutrition{
+    position: relative;
+    right: 31px;
+    color: hsl(30, 10%, 34%);
+    font-weight: 400;
+    text-indent: 8px;
+    list-style-type: none; 
+    padding-top: 7px;   
+}
+p{
+    font-weight: 400;
+    color:hsl(30, 10%, 34%) ;
+}
+.preparation li::marker{
+    color: hsl(332, 45%, 41%);
+    font-size: 7px;
+}
+.ingredients li::marker{
+    color: hsl(14, 45%, 36%);
+    font-size: 7px;   
+}
+ol li::marker{
+    color: hsl(14, 45%, 36%);  
+    font-weight: 800;
+}
+.nutrition li:nth-child(1){
+    padding: 5px;
+    font-weight: 500;
+}
+.nutrition li:nth-child(3){
+    padding: 5px;
+    font-weight: 500;
+}
+.nutrition li:nth-child(5){
+    padding: 5px;
+    font-weight: 500;
+}
+.nutrition li:nth-child(7){
+    padding: 5px;
+    font-weight: 500;
+}
+.number{
+    color:hsl(14, 45%, 36%);
+    font-weight: 800;
+}
+.nutrition li span:nth-child(1){
+
+    display: inline-block;
+    width: 155px;
+}
+hr{
+    border: none;
+    height: 1px;
+    background-color: rgb(236, 235, 235);
+}
